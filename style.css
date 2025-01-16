@@ -2,6 +2,7 @@ body {
     font-family: "Merriweather", serif;
     font-weight: 300;
     font-style: normal;
+    margin: 0px;
 }
 
 .rr {
@@ -17,4 +18,50 @@ body {
 
 .wid img {
     width: 100%;
+}
+
+.bgim {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+section {
+    height: 500px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.link-button:hover {
+    background-color: azure;
+    font-size: 20px;
+}
+
+.fl {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.fl img {
+    width: 80%;
+}
+
+.second {
+    background-image: linear-gradient(90deg, red, orange);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.second:hover {
+    background-color: bisque;
+    font-size: 20px;
 }
