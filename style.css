@@ -71,3 +71,31 @@ section {
     background-repeat: no-repeat;
     background-position: right;
 }
+
+.ex {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 70%;
+}
+
+.experiences-bkimg {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+#border {
+    border-left: 7px solid;
+    border-image: linear-gradient(green, red);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+}
