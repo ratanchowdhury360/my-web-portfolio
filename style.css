@@ -1,0 +1,20 @@
+body {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.rr {
+    color: sandybrown;
+}
+
+.wid {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.wid img {
+    width: 100%;
+}
